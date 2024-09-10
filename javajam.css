@@ -1,0 +1,191 @@
+* { box-sizing: border-box; }
+
+body{
+    background-color: #fcebb6;
+    color : #221811;
+    font-family:  Verdana, Arial, sans-serif;
+    background-image: url(Javajam\ IMG/coffee\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url(Javajam\ IMG/javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+
+header a{
+    text-decoration: none
+}
+
+header a:visited{
+    color: black;
+}
+
+h1{
+    font-size: 3em;
+    padding-top: 45px;
+    padding-left: 220px;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link { 
+    color: #FEF6C2;
+}
+
+nav a:visited{
+    color: #D2B48C;
+}
+
+nav a:hover{
+    columns: #CC9933;
+}
+
+nav ul{
+    padding-left: 0;
+    list-style: none;
+
+}
+
+footer{
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: solid 2px #221811;
+}
+
+#wrapper{
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow:2px 3px 3px 2px burlywood;
+    width: 80%;  
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #231814;
+}
+
+h4{
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    text-transform: capitalize;
+    border-bottom: solid 2px black;
+    clear: left;
+}
+
+main{
+    background-color: #FEF6C2;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    margin-left: 200px;
+    display: block;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl{
+    padding-left: 3em;
+    padding-right: 2em ;
+}
+
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#heroroad{
+    background-image: url(Javajam\ IMG/heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+#heromugs{
+    background-image: url(Javajam\ IMG/heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+#heroguitar{
+    background-image: url(Javajam\ IMG/heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+#herojobs{
+    background-image: url(Javajam\ IMG/herojobs.jpg);
+    background-size: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+.floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-right: 2em;
+}
+
+table{
+    background-color: #FFFFCC;
+    width: 90%;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th{
+    padding: 10px;
+}
+
+tr:nth-of-type(odd){
+    background-color: #D2B48E;
+    
+}
+
+form{
+    padding: 2em;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 1em;
+
+}
+
+#mysubmit{
+    margin-left: 9.5em;
+}
